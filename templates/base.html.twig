@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {# Run `composer require symfony/webpack-encore-bundle`
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {# Run `composer require symfony/webpack-encore-bundle`
            and uncomment the following Encore helpers to start using Symfony UX #}
-        {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
-        {% endblock %}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
 
-        {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
-        {% endblock %}
-    </head>
-    <body>
+    {# favicon #}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+        <script defer src="{{ asset('fontawesome-free-5.15.2-web/js/all.min.js') }}"></script>
+    {% endblock %}
+</head>
+
+{% set currentPath  = path(app.request.attributes.get('_route')) %}
+
+
+<body class="
+    {% if currentPath matches '/\\/$/' %}
+    background-homepage
+    {% endif %}
+">
+
+<div style="
+    {% if currentPath matches '/\\/$/' %}
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+    {% endif %}
+">
+
+    {% include 'shared/navbar/customers/_navbar.html.twig' %}
+
+    <div class="d-flex justify-content-center customers"
+            {% if currentPath matches '/\\w+$/' %}
+                style="margin-top: 8rem"
+            {% endif %}
+    >
         {% block body %}{% endblock %}
-    </body>
+    </div>
+
+</div>
+
+</body>
 </html>

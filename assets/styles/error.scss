@@ -1,0 +1,19 @@
+#error404 {
+  background: no-repeat url(../images/error/error404.jpg);
+  background-size: cover;
+  min-height: 100vh !important;
+  h1 {
+    color: white;
+    font-size: 150px;
+  }
+}
+
+#error {
+  background: no-repeat url(../images/error/error.jpg);
+  background-size: cover;
+  min-height: 100vh !important;
+  h1 {
+    color: white;
+    font-size: 150px;
+  }
+}

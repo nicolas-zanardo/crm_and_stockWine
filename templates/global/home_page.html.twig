@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% set title_page = "Accueil" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <div class="d-flex align-items-center justify-content-center homepage" style="height: 100vh;
+    max-width:
+    100vw">
+        <div class="d-flex justify-content-center" >
+            <img src="{{ asset('build/logo-homepage.png') }}" alt="les vielles vignes"
+            style="max-width: 100vw; max-height: 80vh">
+        </div>
+    </div>
+{% endblock %}

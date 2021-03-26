@@ -1,0 +1,54 @@
+@import "../../Bootswatch/materia/variables";
+
+$padding-a: 1.5rem 0.5rem;
+$color-a: $gray-200;
+
+#navbar-customer {
+  background-color: rgb(69, 69, 69) !important;
+  display: inline-block;
+  position: fixed !important;
+  z-index: 1001;
+  width: 100%;
+  top: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  div {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    .navbar-brand {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-height: 50px !important;
+        filter: contrast(200%);
+        padding:0 1rem !important;
+      }
+    }
+    div.customer{
+      a {
+        color: $color-a !important;
+        padding: $padding-a !important;
+        text-decoration: none !important;
+        font-family: "Berlin Sans FB", sans-serif;
+        &:hover {
+          background-color: rgba($gray-100, 0.1);
+          color: $white !important;
+        }
+      }
+    }
+    div.login{
+      a {
+        color: $color-a !important;
+        padding: $padding-a !important;
+        &:hover {
+          color: $white !important;
+        }
+      }
+    }
+  }
+}
