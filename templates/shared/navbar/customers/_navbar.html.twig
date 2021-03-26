@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark" id="navbar-customer" style="
+{% if currentPath matches '/\\/$/' %}
+        background-color: rgba(59, 59, 59,0.3) !important
+{% endif %}
+        ">
+
+    <div class="container-fluid d-flex align-items-center justify-content-between block-customer-nav-bar">
+
+        <a class="navbar-brand" href="{{ path('home_page') }}"><img src="{{ asset('build/logo-navbar.png') }}" alt=""></a>
+
+        <div class="container fluid d-flex customer">
+            <a href="{{ path('domaine') }}">Domaine</a>
+            <a href="{{ path('vins') }}">Vins</a>
+            <a href="{{ path('flocs') }}">Flocs</a>
+            <a href="{{ path('armagnacs') }}">Armagnacs</a>
+            <a href="{{ path('contact') }}" hidden>Contact</a>
+        </div>
+
+        <div class="d-flex login">
+            <a href="{{ path('employees_dashboard') }}"><i class="fas fa-shopping-cart"></i></a>
+            <a href="{{ path('employees_dashboard') }}"><i class="fas fa-briefcase"></i></a>
+            <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </div>
+</nav>
