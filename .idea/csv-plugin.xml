@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\assets\app\shared\components\navbar\mainNavbar\nav\components\MainTopBar.ts">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\templates\global\domaine.html.twig">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

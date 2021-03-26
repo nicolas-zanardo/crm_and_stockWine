@@ -11,13 +11,10 @@ import './styles/app.scss';
 import './fontawesome-free-5.15.2-web/scss/fontawesome.scss';
 // import library JS
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './fontawesome-free-5.15.2-web/js/all';
 // import Module
 import AllNavBar from "./app/shared/components/navbar/AllNavBar";
 
 // Instance
 new AllNavBar();
-
-
 
 

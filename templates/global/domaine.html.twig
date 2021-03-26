@@ -1,0 +1,145 @@
+{% extends 'base.html.twig' %}
+
+{% set title_page = "Domaine" %}
+
+{% block title %}Domaine{% endblock %}
+
+{% block body %}
+    <div class="d-flex justify-content-center flex-column mx-5" id="domaine">
+        <div class="d-flex align-items-center justify-content-center flex-column col-12 my-5">
+            <div class="d-flex justify-content-between col-12">
+                <hr class="flex-grow-1">
+                <h1 class="flex-grow-0 text-center px-5">Un lieu</h1>
+                <hr class="flex-grow-1">
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-12 mb-5">
+            <div class="col-4 me-2">
+                <img src="{{ asset('build/domaine/domaine.jpg') }}" alt="les vielles vignes"
+                     class="img-fluid">
+            </div>
+            <div class="col-6 ms-2">
+                <h2>Le Domaine</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem
+                    cum dolor dolorum enim expedita hic in iste, labore libero magnam minima
+                    molestiae nisi nostrum nulla, officia, omnis pariatur perferendis quae quo
+                    rerum saepe similique! Adipisci animi autem cum dicta doloremque dolorum
+                    earum, est exercitationem fugiat hic in iusto nemo nisi officiis, quae quasi
+                    quibusdam quisquam repudiandae velit veritatis vero voluptas voluptatem
+                    voluptatum! Accusamus aliquam asperiores assumenda dicta doloribus,
+                    esse excepturi expedita, laudantium minus modi nisi non officia porro quam
+                    quidem rerum sequi similique, tempora velit veniam.
+                </p>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-12">
+            <div class="col-6 me-2">
+                <h2>La Cave</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem
+                    cum dolor dolorum enim expedita hic in iste, labore libero magnam minima
+                    molestiae nisi nostrum nulla, officia, omnis pariatur perferendis quae quo
+                    rerum saepe similique! Adipisci animi autem cum dicta doloremque dolorum
+                    earum, est exercitationem fugiat hic in iusto nemo nisi officiis, quae quasi
+                    quibusdam quisquam repudiandae velit veritatis vero voluptas voluptatem
+                    voluptatum! Accusamus aliquam asperiores assumenda dicta doloribus,
+                    esse excepturi expedita, laudantium minus modi nisi non officia porro quam
+                    quidem rerum sequi similique, tempora velit veniam.
+                </p>
+            </div>
+            <div class="col-4 ms-2">
+                <img src="{{ asset('build/domaine/cave-nb.jpg') }}" alt="les vielles vignes"
+                     class="img-fluid">
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center flex-column col-12 my-5"
+             id="vignes">
+            <div class="d-flex justify-content-between col-12 my-5">
+                <hr class="flex-grow-1">
+                <h1 class="flex-grow-0 text-center mx-5">Des Vignes</h1>
+                <hr class="flex-grow-1">
+            </div>
+            <div class="d-flex justify-content-center box-column">
+                <img src="{{ asset('build/domaine/vignes-soleil.jpg') }}" alt="les vielles vignes"
+                     class="">
+                <div class="d-flex flex-column justify-content-between ms-5">
+                    <img src="{{ asset('build/domaine/vignes-raisins-rouge.jpg') }}" alt="les vielles
+                    vignes" class="img-small">
+                    <img src="{{ asset('build/domaine/vignes-feuilles.jpg') }}" alt="les vielles vignes"
+                         class="img-small">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center flex-column col-12 my-5">
+            <div class="d-flex justify-content-between col-12 my-5">
+                <hr class="flex-grow-1">
+                <h1 class="flex-grow-0 text-center mx-5">Un savoir faire</h1>
+                <hr class="flex-grow-1">
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-12 mb-5">
+            <div class="col-4 me-2">
+                <img src="{{ asset('build/domaine/expo-antiquité.jpg') }}" alt="les vielles vignes"
+                     class="img-fluid">
+            </div>
+            <div class="col-6 ms-2">
+                <h2>Une histoire</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem
+                    cum dolor dolorum enim expedita hic in iste, labore libero magnam minima
+                    molestiae nisi nostrum nulla, officia, omnis pariatur perferendis quae quo
+                    rerum saepe similique! Adipisci animi autem cum dicta doloremque dolorum
+                    earum, est exercitationem fugiat hic in iusto nemo nisi officiis, quae quasi
+                    quibusdam quisquam repudiandae velit veritatis vero voluptas voluptatem
+                    voluptatum! Accusamus aliquam asperiores assumenda dicta doloribus,
+                    esse excepturi expedita, laudantium minus modi nisi non officia porro quam
+                    quidem rerum sequi similique, tempora velit veniam.
+                </p>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-12 mb-5">
+            <div class="col-6 me-2">
+                <h2>La sélection</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem
+                    cum dolor dolorum enim expedita hic in iste, labore libero magnam minima
+                    molestiae nisi nostrum nulla, officia, omnis pariatur perferendis quae quo
+                    rerum saepe similique! Adipisci animi autem cum dicta doloremque dolorum
+                    earum, est exercitationem fugiat hic in iusto nemo nisi officiis, quae quasi
+                    quibusdam quisquam repudiandae velit veritatis vero voluptas voluptatem
+                    voluptatum! Accusamus aliquam asperiores assumenda dicta doloribus,
+                    esse excepturi expedita, laudantium minus modi nisi non officia porro quam
+                    quidem rerum sequi similique, tempora velit veniam.
+                </p>
+            </div>
+            <div class="col-4 ms-2">
+                <img src="{{ asset('build/domaine/raisin.jpg') }}" alt="les vielles vignes"
+                     class="img-fluid">
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center col-12 mb-5">
+            <div class="col-4 me-2">
+                <img src="{{ asset('build/domaine/degustation.jpg') }}" alt="les vielles vignes"
+                     class="img-fluid">
+            </div>
+            <div class="col-6 ms-2">
+                <h2>Le Plaisir</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem
+                    cum dolor dolorum enim expedita hic in iste, labore libero magnam minima
+                    molestiae nisi nostrum nulla, officia, omnis pariatur perferendis quae quo
+                    rerum saepe similique! Adipisci animi autem cum dicta doloremque dolorum
+                    earum, est exercitationem fugiat hic in iusto nemo nisi officiis, quae quasi
+                    quibusdam quisquam repudiandae velit veritatis vero voluptas voluptatem
+                    voluptatum! Accusamus aliquam asperiores assumenda dicta doloribus,
+                    esse excepturi expedita, laudantium minus modi nisi non officia porro quam
+                    quidem rerum sequi similique, tempora velit veniam.
+                </p>
+            </div>
+        </div>
+        {%  include 'shared/employees/_info-les-viellevignes.html.twig' %}
+    </div>
+
+{% endblock %}
+

@@ -9,21 +9,42 @@
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 
+    {# favicon #}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
     {% block javascripts %}
         {{ encore_entry_script_tags('app') }}
+        <script defer src="{{ asset('fontawesome-free-5.15.2-web/js/all.min.js') }}"></script>
     {% endblock %}
 </head>
 
-<body>
-{% include 'shared/_navbar.html.twig' %}
-<div class="d-flex">
-    {% include 'shared/_navbar_left.html.twig' %}
-    <main class="container fluid d-flex justify-content-center">
-        <div class="row col-12">
-            main
-            {% block main %}{% endblock %}
-        </div>
-    </main>
+{% set currentPath  = path(app.request.attributes.get('_route')) %}
+
+
+<body class="
+    {% if currentPath matches '/\\/$/' %}
+    background-homepage
+    {% endif %}
+">
+
+<div style="
+    {% if currentPath matches '/\\/$/' %}
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+    {% endif %}
+">
+
+    {% include 'shared/navbar/customers/_navbar.html.twig' %}
+
+    <div class="d-flex justify-content-center customers"
+            {% if currentPath matches '/\\w+$/' %}
+                style="margin-top: 8rem"
+            {% endif %}
+    >
+        {% block body %}{% endblock %}
+    </div>
+
 </div>
+
 </body>
 </html>

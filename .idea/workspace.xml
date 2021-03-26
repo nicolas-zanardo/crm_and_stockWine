@@ -2,22 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="419fe0d5-3d2c-46f6-9e73-23b8c82879c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/MainNavBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/ComponentsMainNavBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainLeftBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainLeftUnderBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainTopBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/app/shared/services/SelectElement.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/_nav-left.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/_navbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/shared/_navbar_left.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/employees/mainNavbar/nav/components/MainLeftBar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/employees/mainNavbar/nav/components/MainLeftUnderBar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/employees/mainNavbar/nav/components/MainTopBar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/cave-nb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/degustation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/domaine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/expo-antiquité.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/fruit-3215625_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/raisin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/raisins-rouges.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/vignes-feuilles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/vignes-raisins-rouge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/vignes-soleil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/domaine/vignes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/error/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/error/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/_btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/customers/_custommers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/customers/_domaine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/customers/_homepage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/customers/navbar/_navbar-costumer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/employess/_employess.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/employess/navbar/_navbar-employees.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/employees.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/error.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/armagnacs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/contact.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/domaine.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/flocs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/home_page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/global/vins.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/employees/_info-les-viellevignes.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/navbar/customers/_navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/navbar/employees/_navbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/navbar/employees/_navbar_left.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shared/navbar/error/_navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/AllNavBar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/AllNavBar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/MainNavBar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/employees/mainNavbar/MainNavBar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/ComponentsMainNavBar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app/shared/components/navbar/employees/mainNavbar/nav/ComponentsMainNavBar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainLeftBar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainLeftUnderBar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app/shared/components/navbar/mainNavbar/nav/components/MainTopBar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Bootswatch/materia/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Bootswatch/materia/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/_nav-left.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomePageController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home_page/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/_navbar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shared/_navbar_left.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,16 +202,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/shared/navbar/error" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\templates\shared\navbar\error" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\templates" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\templates\global" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\app\shared\components\Navbar\mainNavbar\nav" />
-      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\app\shared\component\Navbar\mainNavbar" />
-      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\typescript\shared\component\NavBar" />
-      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\typescript\shared" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\images\error" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\templates\shared\navbar\customers" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\templates\shared\navbar\error" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\styles\employess\navbar" />
+      <recent name="\\wsl$\Debian\home\niko\_DIR_\www\nicolas_duffour\crm_and_stockWine\assets\styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -175,7 +231,10 @@
       <option name="presentableId" value="Default" />
       <updated>1616107229484</updated>
       <workItem from="1616107236472" duration="9387000" />
-      <workItem from="1616168723703" duration="39819000" />
+      <workItem from="1616168723703" duration="74549000" />
+      <workItem from="1616573480633" duration="19000" />
+      <workItem from="1616574751015" duration="65679000" />
+      <workItem from="1616747064424" duration="27192000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,106 @@
+@import "../../Bootswatch/materia/variables";
+
+$height-logo-description: 4rem;
+$top: 68px;
+
+#nav-left {
+  display: inline-block;
+  padding: 3rem 0 !important;
+  z-index: 1000;
+  position: fixed !important;
+  top: $top;
+  left: -50px;
+  background-color: $gray-700;
+  width: 50px;
+  color: white;
+  min-height: 94vh;
+  transition: 1s !important;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    max-height: 50px;
+    padding: 2rem 0;
+    .logo-nav-left {
+      display: flex;
+      padding: 0 !important;
+      margin: 0 !important;
+      height: $height-logo-description !important;
+    }
+  }
+}
+
+#nav-left-under {
+  display: inline-block;
+  padding-top: 3rem !important;
+  z-index: 999;
+  top: $top;
+  left: -100px;
+  position: fixed !important;
+  background-color: rgba($gray-600, 0.5);
+  width: 100px;
+  color: white;
+  min-height: 94vh;
+  transition: 1s !important;
+  transition-delay: 0s !important;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    max-height: 50px;
+    padding: 2rem 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    .description-nav-left {
+      display: flex;
+      align-items: center;
+      padding-left: 0.4rem !important;
+      margin: 0 !important;
+      height: $height-logo-description !important;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+#navbar-employees {
+  display: inline-block;
+  position: fixed !important;
+  z-index: 1001;
+  width: 100%;
+  top: 0;
+  padding: 0.8rem !important;
+  margin: 0 !important;
+  height: 68px;
+  .block-employees-nav-bar {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    color:white;
+    .logo-navbar-employees {
+      img {
+        height: 45px;
+        filter: contrast(200%);
+      }
+    }
+    .navbar-brand {
+      cursor: pointer !important;
+      transition: 1s !important;
+      margin: 0.2rem !important;
+      padding: 0 1rem !important;
+      border-radius: 25px !important;
+      background-color: $gray-800;
+      &:hover {
+        background-color: $gray-700;
+      }
+    }
+    .login{
+      a {
+        color: white !important;
+        margin: 0 0.5rem !important;
+      }
+    }
+  }
+}
+
